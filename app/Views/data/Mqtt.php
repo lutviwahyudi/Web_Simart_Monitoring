@@ -1,0 +1,1 @@
+<?= "Pesan diterima di topik $topic: $msg";?>

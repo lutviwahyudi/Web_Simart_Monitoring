@@ -1,0 +1,191 @@
+INFO - 2023-10-05 00:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-05 00:05:11 --> Undefined variable $data
+in APPPATH\Views\pages\home.php on line 86.
+ 1 APPPATH\Views\pages\home.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php', 86)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\pages.php(24): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-05 00:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-05 00:06:49 --> Undefined variable $jam
+in APPPATH\Views\pages\home.php on line 86.
+ 1 APPPATH\Views\pages\home.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jam', 'C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php', 86)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\pages.php(24): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-05 00:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-05 00:06:51 --> Undefined variable $jam
+in APPPATH\Views\pages\home.php on line 86.
+ 1 APPPATH\Views\pages\home.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jam', 'C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php', 86)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\pages.php(24): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-05 00:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-05 00:09:14 --> Undefined variable $data
+in APPPATH\Views\pages\home.php on line 86.
+ 1 APPPATH\Views\pages\home.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php', 86)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\pages.php(24): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-05 00:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-05 00:09:15 --> Undefined variable $data
+in APPPATH\Views\pages\home.php on line 86.
+ 1 APPPATH\Views\pages\home.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php', 86)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\pages.php(24): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-05 00:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-05 00:11:42 --> Undefined variable $data
+in APPPATH\Views\pages\home.php on line 86.
+ 1 APPPATH\Views\pages\home.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php', 86)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\pages.php(24): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-05 00:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-05 00:12:48 --> Undefined array key "suhu"
+in APPPATH\Views\pages\home.php on line 92.
+ 1 APPPATH\Views\pages\home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "suhu"', 'C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php', 92)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\pages.php(25): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-05 00:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 00:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-05 00:15:47 --> Undefined array key "suhu"
+in APPPATH\Views\pages\home.php on line 92.
+ 1 APPPATH\Views\pages\home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "suhu"', 'C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php', 92)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\pages.php(25): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-05 00:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-05 00:16:26 --> Undefined array key "updated_at"
+in APPPATH\Views\pages\home.php on line 92.
+ 1 APPPATH\Views\pages\home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "updated_at"', 'C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php', 92)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\pages.php(25): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-05 00:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-05 00:16:28 --> Undefined array key "updated_at"
+in APPPATH\Views\pages\home.php on line 92.
+ 1 APPPATH\Views\pages\home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "updated_at"', 'C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php', 92)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\pages.php(25): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-05 16:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 16:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-05 16:05:06 --> Undefined array key "updated_at"
+in APPPATH\Views\pages\home.php on line 92.
+ 1 APPPATH\Views\pages\home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "updated_at"', 'C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php', 92)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\pages.php(25): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-05 19:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 19:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-05 19:03:23 --> Undefined array key "updated_at"
+in APPPATH\Views\pages\home.php on line 92.
+ 1 APPPATH\Views\pages\home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "updated_at"', 'C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php', 92)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\pages.php(25): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-05 19:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 21:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 21:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 21:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-05 21:36:43 --> Undefined array key "nilai"
+in APPPATH\Views\pages\home.php on line 92.
+ 1 APPPATH\Views\pages\home.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nilai"', 'C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php', 92)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\sistem\\app\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\pages.php(29): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-05 22:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 22:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 22:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 22:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 22:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 22:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-05 22:30:04 --> Undefined variable $title
+in APPPATH\Views\layout\template.php on line 7.
+ 1 APPPATH\Views\layout\template.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\laragon\\www\\sistem\\app\\Views\\layout\\template.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\sistem\\app\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tb_data', [], true)
+ 6 APPPATH\Controllers\pages.php(90): view('pages/tb_data', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages->getDataPerjam()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 22:41:28 --> Undefined variable $data
+in APPPATH\Views\pages\tb_data.php on line 30.
+ 1 APPPATH\Views\pages\tb_data.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\sistem\\app\\Views\\pages\\tb_data.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\sistem\\app\\Views\\pages\\tb_data.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('pages/tb_data', [], true)
+ 5 APPPATH\Controllers\pages.php(92): view('pages/tb_data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Pages->getDataPerjam()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

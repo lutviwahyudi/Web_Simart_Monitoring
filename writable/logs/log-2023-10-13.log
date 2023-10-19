@@ -1,0 +1,6 @@
+CRITICAL - 2023-10-13 09:39:00 --> Call to undefined function App\Controllers\connectMqtt()
+in APPPATH\Controllers\Mqtt.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mqtt->sendMessage()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mqtt))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

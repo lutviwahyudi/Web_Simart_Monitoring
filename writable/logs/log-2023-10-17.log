@@ -1,0 +1,48 @@
+CRITICAL - 2023-10-17 14:20:20 --> Cannot redeclare App\Controllers\procMsg() (previously declared in C:\laragon\www\sistem\app\Controllers\Mqtt.php:65)
+in APPPATH\Controllers\Mqtt.php on line 65.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-17 14:22:29 --> fwrite(): Send of 2 bytes failed with errno=10058 A request to send or receive data was disallowed because the socket had already been shut down in that direction with a previous shutdown call
+in VENDORPATH\bluerhinos\phpmqtt\phpMQTT.php on line 370.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'fwrite(): Send of 2 bytes failed with errno=10058 A request to send or receive data was disallowed because the socket had already been shut down in that direction with a previous shutdown call', 'C:\\laragon\\www\\sistem\\vendor\\bluerhinos\\phpmqtt\\phpMQTT.php', 370)
+ 2 VENDORPATH\bluerhinos\phpmqtt\phpMQTT.php(370): fwrite(resource (stream), 'à' . "\0" . '', 2)
+ 3 VENDORPATH\bluerhinos\phpmqtt\phpMQTT.php(378): Bluerhinos\phpMQTT->disconnect()
+ 4 APPPATH\Controllers\Mqtt.php(65): Bluerhinos\phpMQTT->close()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mqtt->terima()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mqtt))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 18:51:34 --> Unsupported operand types: Closure << int
+in VENDORPATH\bluerhinos\phpmqtt\phpMQTT.php on line 337.
+ 1 APPPATH\Controllers\Mqtt.php(68): Bluerhinos\phpMQTT->subscribe([...], Object(Closure))
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mqtt->terima()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mqtt))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 19:01:40 --> Unsupported operand types: Closure << int
+in VENDORPATH\bluerhinos\phpmqtt\phpMQTT.php on line 337.
+ 1 APPPATH\Controllers\Mqtt.php(68): Bluerhinos\phpMQTT->subscribe([...], Object(Closure))
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mqtt->terima()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mqtt))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 19:06:35 --> fwrite(): Send of 2 bytes failed with errno=10054 An existing connection was forcibly closed by the remote host
+in VENDORPATH\bluerhinos\phpmqtt\phpMQTT.php on line 357.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'fwrite(): Send of 2 bytes failed with errno=10054 An existing connection was forcibly closed by the remote host', 'C:\\laragon\\www\\sistem\\vendor\\bluerhinos\\phpmqtt\\phpMQTT.php', 357)
+ 2 VENDORPATH\bluerhinos\phpmqtt\phpMQTT.php(357): fwrite(resource (stream), 'À' . "\0" . '', 2)
+ 3 VENDORPATH\bluerhinos\phpmqtt\phpMQTT.php(573): Bluerhinos\phpMQTT->ping()
+ 4 APPPATH\Controllers\Mqtt.php(63): Bluerhinos\phpMQTT->proc()
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mqtt->terima()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mqtt))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-17 19:33:12 --> stream_socket_client(): Unable to connect to tcp://test.mosquitto.org:1883 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond)
+in VENDORPATH\bluerhinos\phpmqtt\phpMQTT.php on line 150.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'stream_socket_client(): Unable to connect to tcp://test.mosquitto.org:1883 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond)', 'C:\\laragon\\www\\sistem\\vendor\\bluerhinos\\phpmqtt\\phpMQTT.php', 150)
+ 2 VENDORPATH\bluerhinos\phpmqtt\phpMQTT.php(150): stream_socket_client('tcp://test.mosquitto.org:1883', 0, '', 60, 4)
+ 3 VENDORPATH\bluerhinos\phpmqtt\phpMQTT.php(113): Bluerhinos\phpMQTT->connect(false, null, null, null)
+ 4 VENDORPATH\bluerhinos\phpmqtt\phpMQTT.php(520): Bluerhinos\phpMQTT->connect_auto(false)
+ 5 APPPATH\Controllers\Mqtt.php(63): Bluerhinos\phpMQTT->proc()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Mqtt->terima()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mqtt))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
