@@ -30,11 +30,12 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Landing::page');
-$routes->get('/mqtt/terima', 'Mqtt::terima');
 $routes->get('/home', 'Home::index');
 $routes->get('/auth/login', 'Auth::login');
 $routes->get('/auth/save', 'Auth::save');
 $routes->get('/pages', 'Pages::index');
+$routes->get('/sensor', 'Sensor::index');
+$routes->get('/kelembapan', 'Kelembapan::index');
 $routes->cli('/tasks', 'Tasks::index');
 $routes->cli('/schedule', 'Schedule::index');
 $routes->get('/pages/senData/(:num)/(:num)', 'Pages::senData/$1/$2');
