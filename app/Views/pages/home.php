@@ -16,7 +16,7 @@
               </div>
               <div class="col-4">
                 <div class="d-flex justify-content-center">
-                  <div id="breakup"></div>
+                  <div><img src="<?= base_url('template2')?>/assets/images/logos/sensor.png" alt="" style="width: 100px; height: 100px"></div>
                 </div>
               </div>
             </div>
@@ -30,13 +30,6 @@
               <div class="col-8">
                 <h5 class="card-title mb-9 fw-semibold">Humadity</h5>
                 <h1 class="fw-semibold mb-3"><span id="kelembapan"></span>%</h1>
-                <div class="d-flex align-items-center pb-1">
-                  <span class="me-2 rounded-circle bg-light-danger round-20 d-flex align-items-center justify-content-center">
-                    <i class="ti ti-arrow-down-right text-danger"></i>
-                  </span>
-                  <p class="text-dark me-1 fs-3 mb-0">+9%</p>
-                  <p class="fs-3 mb-0">last year</p>
-                </div>
               </div>
               <div class="col-4">
                 <div class="d-flex justify-content-end">
@@ -95,7 +88,7 @@
                   </td>
                   <td class="border-bottom-0">
                     <div class="d-flex align-items-center gap-2">
-                      <span class="badge bg-success rounded-3 fw-semibold">Normal</span>
+                      <span class="badge bg-success rounded-3 fw-semibold"><?= $row['status'] ?></span>
                     </div>
                   </td>
                   <td class="border-bottom-0">

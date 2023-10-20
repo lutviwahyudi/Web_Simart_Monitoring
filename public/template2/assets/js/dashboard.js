@@ -110,7 +110,7 @@ $(function () {
   // =====================================
   var breakup = {
     color: "#D2DE32",
-    series: [60],
+    series: [],
     labels: ["2023"],
     chart: {
       width: 180,
@@ -180,7 +180,7 @@ $(function () {
       {
         name: "Earnings",
         color: "#49BEFF",
-        data: [25, 66, 20, 40, 12, 58, 20],
+        data: [],
       },
     ],
     stroke: {

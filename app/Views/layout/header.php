@@ -13,7 +13,7 @@
                 <!-- <a href="https://adminmart.com/product/modernize-free-bootstrap-admin-dashboard/" target="_blank" class="btn btn-primary">Download Free</a> -->
                 <li class="nav-item dropdown">
                     <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="<?= base_url('template2') ?>/assets/images/profile/user-1.jpg" alt="" width="35" height="35" class="rounded-circle">
+                        <img src="<?= base_url('template2') ?>/assets/images/profile/smile.jpeg" alt="" width="45" height="45" class="rounded-circle">
                     </a>
                     <div class="dropdown-menu dropdown-menu-end dropdown-menu-animate-up" aria-labelledby="drop2">
                         <div class="message-body">
