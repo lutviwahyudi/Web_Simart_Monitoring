@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Models\SensorModel;
 use App\Models\DataModel;
 
+
 class Pages extends BaseController
 {
 
@@ -27,6 +28,7 @@ class Pages extends BaseController
         ];
         
         return view('pages/home', $data);
+
 
     }
 
@@ -88,7 +90,23 @@ class Pages extends BaseController
 
     }
 
+    public function tabel()
+    {
+        $data = [
+            'title' => 'Halaman | Tabel Data Sensor',
+            'sensor' => $this->SensorModel->getSensor()
+        ];
 
+        return view('pages/tb_data', $data);
+
+    }
+
+    public function chart()
+    {
+        $data = $this->SensorModel->getNilai();
+        
+        return $this->response->setJSON($data);
+    }
 
     }
 

@@ -20,7 +20,10 @@ class SensorModel extends Model
         return $this->findAll();
     }
 
-
+    public function getNilai() 
+    {
+        return $this->db->table($this->table)->select('suhu')->get()->getResultArray();    
+    }
     public function getDataFromTable1()
     {
         return $this->db->table($this->table)

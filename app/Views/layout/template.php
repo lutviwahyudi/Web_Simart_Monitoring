@@ -57,7 +57,6 @@
       </div>
     </div>
   </div>
-
   <!-- <script src="/assets/libs/jquery/dist/jquery.min.js"></script> -->
   <script src="<?= base_url('template2') ?>/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="<?= base_url('template2') ?>/assets/js/sidebarmenu.js"></script>
