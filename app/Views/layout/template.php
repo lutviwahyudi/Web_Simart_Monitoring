@@ -77,7 +77,6 @@
         success: data => {
           let chartX = [];
           let chartY = [];
-          let chartZ = 1024;
           data.map(data => {
             chartX.push(data.suhu);
             chartY.push(data.kelembapan);

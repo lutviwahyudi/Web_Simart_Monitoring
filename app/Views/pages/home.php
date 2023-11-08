@@ -49,9 +49,6 @@
 <!-- akhir record data sensor -->
 <!-- chart -->
 <div class="row">
-  <!-- <div class="col-8">
-    <canvas id="bar"></canvas>
-  </div> -->
   <div class="col-lg-12 d-flex align-items-strech">
     <div class="card w-100">
       <div class="card-body">
