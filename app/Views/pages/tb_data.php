@@ -28,7 +28,7 @@
                         </thead>
                         <tbody>
                             <?php $normal = 1?>
-                            <?php foreach ($sensor as $row): ?>
+                            <?php foreach ($sensor as $row) : ?>
                             <tr>
                                 <td class="border-bottom-0">
                                     <h6 class="fw-semibold mb-0"><?= $normal++; ?></h6>

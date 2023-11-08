@@ -31,6 +31,11 @@ class Pages extends BaseController
 
 
     }
+    public function chart_data()
+    {
+        $data = $this->SensorModel->getSensor();
+        echo json_encode($data);
+    }
 
     public function dataNilaiSensor() 
     {
@@ -101,14 +106,8 @@ class Pages extends BaseController
 
     }
 
-    public function chart()
-    {
-        $data = $this->SensorModel->getNilai();
-        
-        return $this->response->setJSON($data);
-    }
 
-    }
+}
 
 
 

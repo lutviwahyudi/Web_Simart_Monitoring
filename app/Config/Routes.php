@@ -34,6 +34,8 @@ $routes->get('/home', 'Home::index');
 $routes->get('/auth/login', 'Auth::login');
 $routes->get('/auth/save', 'Auth::save');
 $routes->get('/pages', 'Pages::index');
+$routes->get('/pages/chart', 'Pages::chart');
+$routes->get('/pages/tampil', 'Pages::tampil');
 $routes->get('/sensor', 'Sensor::index');
 $routes->get('/kelembapan', 'Kelembapan::index');
 $routes->cli('/tasks', 'Tasks::index');

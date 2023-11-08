@@ -1,13 +1,12 @@
+
 $(function () {
-
-
   // =====================================
   // Profit
   // =====================================
   var chart = {
 
     series: [
-      { name: "Data Sensor:", data: [400, 0, 0, 0, 0, 0, 0] }
+      { name: "Data Sensor:", data: [] }
     ],
 
     chart: {
@@ -57,7 +56,7 @@ $(function () {
 
     xaxis: {
       type: "category",
-      categories: ["Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"],
+      categories: [],
       labels: {
         style: { cssClass: "grey--text lighten-2--text fill-color" },
       },

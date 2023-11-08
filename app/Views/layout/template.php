@@ -8,23 +8,24 @@
   <link rel="shortcut icon" type="image/png" href="<?= base_url('template2') ?>/assets/images/logos/logo2.png" />
   <link rel="stylesheet" href="<?= base_url('template2') ?>/assets/css/styles.min.css" />
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script type="text/javascript">
     //ambil data dari controller masing-masing secara realtime
-    $(document).ready(function() {  
-      setInterval(function () {
+    $(document).ready(function() {
+      setInterval(function() {
         $("#N_Sensor").load("<?= site_url('pages/dataNilaiSensor'); ?>")
         $("#N_Sensor_tabel").load("<?= site_url('pages/dataNilaiSensor'); ?>")
       }, 2000);
     });
 
-    $(document).ready(function() {  
-      setInterval(function () {
+    $(document).ready(function() {
+      setInterval(function() {
         $("#updated_at").load("<?= site_url('pages/updated_at'); ?>")
       }, 2000);
     });
-    
+
     $(document).ready(function() {
-      setInterval(function () {
+      setInterval(function() {
         $("#kelembapan").load("<?= site_url('pages/dataKelembapan'); ?>")
         $("#kelembapan_tabel").load("<?= site_url('pages/dataKelembapan'); ?>")
       }, 2000);
@@ -64,6 +65,44 @@
   <script src="<?= base_url('template2') ?>/assets/libs/apexcharts/dist/apexcharts.min.js"></script>
   <script src="<?= base_url('template2') ?>/assets/libs/simplebar/dist/simplebar.js"></script>
   <script src="<?= base_url('template2') ?>/assets/js/dashboard.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script>
+    const baseUrl = "<?= base_url(); ?>";
+    const myChart = (chartType) => {
+      $.ajax({
+        url: baseUrl + 'pages/chart_data',
+        dataType: 'json',
+        method: 'get',
+        success: data => {
+          let chartX = []; // Mengubah "let.chartX" menjadi "let chartX"
+          let chartY = []; // Mengubah "let.chartY" menjadi "let chartY"
+          data.map(data => {
+            chartX.push(data.suhu);
+            chartY.push(data.kelembapan);
+          });
+          const chartData = {
+            labels: chartX,
+            datasets: [{
+              label: 'kelembapan',
+              data: chartY,
+              backgroundColor: ['greencoral'],
+              borderColor: ['greencoral'],
+              borderWidth: 4, // Mengubah "borderwidth" menjadi "borderWidth"
+            }, ],
+          };
+          const ctx = document.getElementById(chartType).getContext('2d');
+          const config = {
+            type: chartType,
+            data: chartData,
+          };
+          const chart = new Chart(ctx, config);
+        },
+      });
+    };
+
+    myChart('bar');
+  </script>
 </body>
 
 </html>
