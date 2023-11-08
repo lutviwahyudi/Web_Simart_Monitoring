@@ -49,10 +49,20 @@
 <!-- akhir record data sensor -->
 <!-- chart -->
 <div class="row">
-  <div class="col-8">
+  <!-- <div class="col-8">
     <canvas id="bar"></canvas>
+  </div> -->
+  <div class="col-lg-12 d-flex align-items-strech">
+    <div class="card w-100">
+      <div class="card-body">
+        <div>
+          <canvas id="bar"></canvas>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+
 
 <!-- end chart -->
 <?= $this->endSection(); ?>

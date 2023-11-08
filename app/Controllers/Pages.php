@@ -33,7 +33,7 @@ class Pages extends BaseController
     }
     public function chart_data()
     {
-        $data = $this->SensorModel->getSensor();
+        $data = $this->DataModel->getData();
         echo json_encode($data);
     }
 

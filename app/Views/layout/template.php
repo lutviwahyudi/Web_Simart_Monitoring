@@ -75,8 +75,9 @@
         dataType: 'json',
         method: 'get',
         success: data => {
-          let chartX = []; // Mengubah "let.chartX" menjadi "let chartX"
-          let chartY = []; // Mengubah "let.chartY" menjadi "let chartY"
+          let chartX = [];
+          let chartY = [];
+          let chartZ = 1024;
           data.map(data => {
             chartX.push(data.suhu);
             chartY.push(data.kelembapan);
@@ -86,20 +87,77 @@
             datasets: [{
               label: 'kelembapan',
               data: chartY,
-              backgroundColor: ['greencoral'],
-              borderColor: ['greencoral'],
-              borderWidth: 4, // Mengubah "borderwidth" menjadi "borderWidth"
-            }, ],
+              borderWidth: 1, // Ketebalan garis batas
+              colors: ["#5D87FF", "#49BEFF"],
+
+            }],
           };
+          const chartType = 'bar'; // Jenis chart yang Anda inginkan (misalnya, 'bar')
           const ctx = document.getElementById(chartType).getContext('2d');
           const config = {
             type: chartType,
             data: chartData,
+            options: {
+              scales: {
+                x: {
+                  ticks: {
+                    font: {
+                      size: 14, // Ukuran font sumbu X
+                    },
+                    color: 'green', // Warna label sumbu X
+                  },
+                },
+                y: {
+                  ticks: {
+                    font: {
+                      size: 14, // Ukuran font sumbu Y
+                    },
+                    color: 'red', // Warna label sumbu Y
+                  },
+                },
+              },
+              plugins: {
+                title: {
+                  display: true,
+                  text: 'Grafik Suhu dan Kelembapan', // Judul chart
+                  font: {
+                    size: 16, // Ukuran font judul
+                    weight: 'bold', // Ketebalan font judul
+                  },
+                  color: 'green', // Warna judul
+                },
+                legend: {
+                  display: true,
+                  position: 'top', // Posisi legenda (contoh: atas)
+                  labels: {
+                    font: {
+                      size: 12, // Ukuran font legenda
+                    },
+                  },
+                },
+              },
+              scales: {
+                x: {
+                  grid: {
+                    color: 'green', // Warna garis grid sumbu X
+                    borderWidth: 1, // Ketebalan garis grid
+                    borderDash: [2], // Style garis grid (contoh: putus-putus)
+                  },
+                },
+                y: {
+                  grid: {
+                    color: 'green', // Warna garis grid sumbu Y
+                    borderWidth: 1, // Ketebalan garis grid
+                    borderDash: [2], // Style garis grid (contoh: putus-putus)
+                  },
+                },
+              },
+            },
           };
           const chart = new Chart(ctx, config);
         },
       });
-    };
+    }
 
     myChart('bar');
   </script>

@@ -100,7 +100,7 @@ $(function () {
 
   };
 
-  var chart = new ApexCharts(document.querySelector("#chart"), chart);
+  var chart = new ApexCharts(document.querySelector("#bar"), chart);
   chart.render();
 
 
