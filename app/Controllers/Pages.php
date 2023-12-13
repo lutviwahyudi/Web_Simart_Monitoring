@@ -99,7 +99,7 @@ class Pages extends BaseController
     {
         $data = [
             'title' => 'Halaman | Tabel Data Sensor',
-            'sensor' => $this->SensorModel->getSensor()
+            'sensor' => $this->DataModel->getData()
         ];
 
         return view('pages/tb_data', $data);
